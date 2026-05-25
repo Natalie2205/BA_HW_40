@@ -13,6 +13,12 @@ import UserCard from './components/props/UserCard'
 import Alert from "./components/props/Alert"
 import ReviewCard from './components/props/ReviewCard'
 import ProductItem from './components/props/ProductItem'
+import Status from './components/states/Status'
+import LikesCounter from './components/states/LikesCounter'
+import Menu from './components/states/Menu'
+import BgColor from './components/states/BgColor'
+import PasswordInput from './components/states/PasswordInput'
+
 
 
 function App() {
@@ -32,6 +38,15 @@ function App() {
         text="Чудовий сервіс, доставка дуже швидка!"
         date="24.05.2026"
       />
+
+      <Status />
+      <LikesCounter />
+      <Menu />
+      <BgColor />
+      <PasswordInput />
+
+
+
       <section id="center">
         <div className="hero">
           <img src={heroImg} className="base" width="170" height="179" alt="" />
